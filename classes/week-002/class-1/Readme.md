@@ -11,6 +11,7 @@ __JavaScript Topics__
 - Attaching JavaScript to a web document.
 - variables let and const and naming best practices
 - DOM selectors   querySelector and querySelectorAll();
+- Read Gramer and Types on   [MDN JavaScript Guide]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types)
 
 __Student To Do__
 - Set up a github account.

@@ -1,0 +1,60 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 100%;
+  font-weight: 400;
+  line-height: 1.3;
+  color:#565967;
+} 
+.icon{
+  width: 2rem;
+}
+.control-strip{
+  background:grey;
+  box-shadow: 0 0 5px 0 grey;
+  padding: 1rem;
+}
+.strip-items{
+  display:flex;
+  justify-content: space-between;
+  color:#2d2d2d;
+}
+.item h1{
+  font-size: 1.125rem;
+  line-height: 2rem;
+} 
+.login{
+  margin: 3rem auto;
+  max-width: 500px;
+}
+.password{
+  display:flex;
+  align-items: center;
+  box-shadow:  0 0 5px 0 grey;
+  padding: 1rem;
+  border-radius: 12px;
+  color:#999;
+}
+label {
+ 
+  font-size: 1.125rem;
+  
+}
+input{
+
+  border:none;
+  padding-left: 1rem;
+  font-size: 1.8rem;
+  margin: 0  0.25rem;
+  flex: 1;
+ 
+}
+input[type=password]{
+  color:#999;
+}
+.password img{
+  opacity: 0.5;
+  width: 2.5rem;
+ 
+}
+ 

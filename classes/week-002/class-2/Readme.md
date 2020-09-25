@@ -1,5 +1,6 @@
 # Using Github
 In this class you will learn how to create a repository in github and integrate VSCode with your github account. You will learn how to setup a local repository and push content to the newlly created repository.
+download
 
 # Connecting GitRepository To Netlify
 - You will also learn how to use Netlify. Netlify is an all-in-one platform for automating modern web projects.  
