@@ -19,10 +19,9 @@ rateCalculator.addEventListener("submit", function (e) {
     warning.classList.remove('hide')
     warning.querySelector('span').textContent = "a numeric weight is required "
   }else{
-      warning.classList.add('hide');
-    shippingRateDisplay.querySelector('button').classList.remove('hide')
-    console.log(shippingRateDisplay.querySelector('button'))
-     rateDisplay.textContent = `$${(userInput*shippingRate).toFixed(2)}`
+      warning.classList.add('hide');   
+   
+     rateDisplay.innerHTML =  ` <span>$${(userInput*shippingRate).toFixed(2)} </span><span>CAD</span>`
   }
    
  
