@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>User Sign Up</title>
+    <link rel="stylesheet" href="css/reboot.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav class="site-nav">
+      <ul class="menu-options">
+        <li class="option">
+          <a href="index.html"><img class="icon" src="img/icons/crack-code.svg" alt="crack code" /></a>
+        </li>
+        <li class="option"><h1>crack code</h1></li>
+        <li class="option">
+          <img class="icon" src="img/icons/user.svg" alt="user proifle" />
+        </li>
+      </ul>
+    </nav>
+    <form id="sign-up" class="sign-up" action="#">
+      <header>
+        <h2>Sign Up</h2>
+      </header>
+
+      <div class="control user-email">
+        <label for="userPassword">user email address</label>
+        <!-- oninvalid="this.setCustomValidity('you must use a valid email address')" -->
+        <input
+          id="userEmail"
+          type="email"
+          maxlength="100"
+          required
+        />
+        <div class="line"></div>
+      </div>
+      <div class="control user-password">
+        <label for="userPassword">enter password</label>
+        <input
+          id="userPassword"
+          type="password"
+       
+          required
+        />
+        <div class="line"></div>
+        <img
+          id="lock"
+          class="icon"
+          src="img/icons/lock-closed.svg"
+          alt="closed padlock"
+        />
+      </div>
+
+      <div class="control confirm-password">
+        <label for="confirmPassword">confirm your password</label>
+        <input
+          id="confirmPassword"
+          type="password"
+          required
+      
+        />
+        <div class="line"></div>
+        <img
+          id="lock"
+          class="icon"
+          src="img/icons/lock-closed.svg"
+          alt="closed padlock"
+        />
+      </div>
+ 
+
+         
+      <div class="control submit-button">
+        <input type="submit" value="sign up" />
+      </div>
+
+      <footer class="terms-conditions">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <span>Autem magnam digni </span>imos nes. Dbore, reiciendis cum fuga!
+      </footer>
+    </form>
+  </body>
+  <script src="js/index.js"></script>
+ 
+</html>

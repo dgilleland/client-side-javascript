@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reboot.css">
+    <title>Confirm Sign Up</title>
+</head>
+<body>
+
+    <nav class="site-nav">
+        <ul class="menu-options">
+          <li class="option">
+            <a href="index.html"><img class="icon" src="img/icons/crack-code.svg" alt="crack code" /></a>
+          </li>
+          <li class="option"><h1>crack code</h1></li>
+          <li class="option">
+            <img class="icon" src="img/icons/user.svg" alt="user proifle" />
+          </li>
+        </ul>
+      </nav>
+    <aside>
+        <header >
+            <h1>Complete Signing Up</h1>
+        </header>
+    
+     
+
+    <form id="confirm" action="#">
+          
+        <div class="confirmation-code">
+             <input id="partOne" type="text" maxlength="3" size="3" placeholder="XXX">  
+             <span class="dash"></span>
+          <input id="partTwo" type="text" maxlength="3" size="3" placeholder="XXX">  
+          <span class="dash"></span>
+          <input id="partThree" type="text" maxlength="3" size="3" placeholder="XXX"> 
+        </div>
+
+        <div class="submit">
+            <button type="submit" >Done</button>
+
+        </div>
+        <header>
+            <h4> Enter the 9 digit code to access your account. </h4> 
+            <p class="code"> </p>
+           </header> 
+    </form>
+</aside>
+ 
+     <script src="js/confirm.js"></script>
+</body>
+</html>
+<style>
+    body{
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+font-size: 100%;
+font-weight: 400;
+line-height: 1.3;
+color: #1a3441;
+        background:rgb(226, 226, 226);
+    }
+    /* NAVBAR STYLES */
+
+.site-nav{
+background: #1a3441;
+padding: 1rem;
+box-shadow: 0 0  5px 0  #1a3441;
+color:#ffffff;
+}
+
+.menu-options{
+display:flex;
+justify-content: space-between;
+align-items: center;
+}
+.option h1{
+font-weight: bold;
+font-size: 14px;
+}
+
+.icon{
+width:2rem;
+}
+/* 
+Confirmation Control
+*/
+    aside{
+        width: 520px;
+        margin: 4rem auto 0;
+        text-align: center;
+        background:#ffffff;
+        padding: 0 0 3rem;
+        border-radius: 6px;
+        box-shadow: 0 0 5px 0 rgb(213, 213, 213);
+    }
+    .help{
+      width: 520px;
+      margin: 0.5rem auto 0;
+    }
+    aside > header{
+        margin-bottom:2rem;
+    }
+    header h1{
+        font-size: 3rem;
+        font-weight: 700;
+        padding: 0.5rem 0;
+        border-bottom: 1px solid rgba(0,0,0,0.1)
+    }
+    .confirmation-message p{
+        margin-top: -1rem;
+        text-align: center;
+        font-size: 14px;
+        margin-bottom: 1.125rem;;
+    }
+    .user-email, .crack-code-email{
+        font-size: 14px;
+        font-weight: bold;
+        font-style: italic;
+    }
+    .code{
+        color:grey;
+    }
+    .confirmation-code  {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        color:rgb(196, 196, 196);
+        margin-bottom: 2rem;
+    }
+    .confirmation-code input{
+        text-align: center;
+      font-size: 2rem;
+      padding: 0.5rem ;
+      width: 5rem;
+      border:none;
+      
+      box-shadow: 0 0 1px 0 rgb(118, 118, 118);
+      border-radius: 6px;
+    }
+    .dash{
+        width: 1.5rem;
+        height: 4px;
+        background:#c5c5c6;
+    }
+    .submit{
+        margin-bottom: 2rem;
+    }
+    .submit button{
+        background:#25b2f9;
+        padding: 0.5rem 2rem;
+        border-radius: 4px;
+        border:none;
+        color:white;
+        font-size: 1.4rem;
+        width: 30%;
+    }
+</style>
