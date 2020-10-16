@@ -1,0 +1,149 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 100%;
+  font-weight: 400;
+  line-height: 1.3;
+  color: #140731;
+  background-color:#f8fbfd;
+  position: relative;
+}
+.site-nav {
+  width: 100%; 
+  padding: 0.25rem 1rem; 
+  color: #ffffff;
+  scroll-behavior:smooth;
+}
+.menu-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+ width:2.5rem;
+ fill:rgb(43, 41, 54);
+ 
+}
+
+.hamburger{
+ width: 2rem;
+  stroke:rgb(43, 41, 54);
+}
+  
+ 
+ 
+ 
+ 
+ 
+
+  /* CHALLANGE  */
+  main {
+    margin: 8rem auto 0;
+   }
+
+  .challange{
+     padding: 1rem;
+     margin-bottom: 2rem;
+     max-width: 480px;
+     margin: 0 auto;
+  }
+  .challange-title{
+    padding: 0.5rem 1rem;
+    text-align: center;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    text-align: center;
+    
+  }
+  .challange-title h2{
+    font-size: 14px;
+    padding-left: 1.5rem;
+    opacity: 0.75;
+  }
+  .challange-title img{
+    height: 3rem;
+    padding-right: 0.25rem;
+   vertical-align: middle;
+  }
+ 
+   
+  .price {
+    font-size: 6rem;
+    font-weight: 500;
+    text-align: center;
+    color:#867aca;
+    background: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 0 2px 0 rgba(92, 92, 92, 0.5);
+    margin-bottom: 1rem;
+  }
+
+.sales-tax{
+  display:flex;
+  justify-content: space-around;
+}
+
+  .control{
+   margin-bottom:2rem;
+  }
+ 
+ 
+  
+ label{
+   margin: 0 0 0.25rem 0.25rem;
+   display:block;
+   font-size: 12px;
+   color:grey;
+ 
+ }
+ 
+  .provinces{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("../img/icons/controls/down-arrow.svg");
+    background-repeat:no-repeat;
+    background-position:    98% center;
+    background-size: 1rem;
+    color: #999999;
+  }
+  .purchase-label {
+  text-align: center;
+
+  }
+  .purchase-label img{
+    width: 2rem;
+    opacity: 0.7;
+    padding-bottom: 0.25rem;
+    vertical-align: middle;
+  }
+  .purchase-label button{
+    border:none;
+    background:#f44336;
+   border-radius: 5px;
+    padding: 1rem;
+    font-size: 13px;
+    color:#ffe0de;
+    width: 75%;
+  }
+ 
+
+  /* UTILITY CLASSES */
+  
+
+  .ui-form-element{
+    display: block;
+    outline:none;
+    font-size: 1.125rem;
+    padding: 0.5rem;
+   width:200px;
+    max-width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #666;
+    margin: 0;
+    border: none;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,0.45);
+    border-radius: 0.5rem;
+  }
+  
