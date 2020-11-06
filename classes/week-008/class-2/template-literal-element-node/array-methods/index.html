@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="css/reboot.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav class="site-nav">
+      <ul class="menu-options">
+        <li class="option">
+          <img class="icon" src="img/icons/crack-code.svg" alt="crack code" />
+        </li>
+        <li class="option"><h1>To Do</h1></li>
+        <li class="option">
+          <img class="icon" src="img/icons/user.svg" alt="user proifle" />
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <header><h2>Search Canadian Cities</h2></header>
+      <aside class="search">
+        <ul class="cities">
+          <ul class="cities">
+            <li class="city">Toronto</li>
+            <li class="city">Montreal</li>
+            <li class="city">Calgary</li>
+            <li class="city">Ottawa</li>
+            <li class="city">Edmonton</li>
+            <li class="city">Mississauga</li>
+            <li class="city">Winnipeg</li>
+            <li class="city">Vancouver</li>
+            <li class="city">Quebec</li>
+            <li class="city">Okanagan</li>
+            <li class="city">Victoria</li>
+            <li class="city">Moose Jaw</li>
+          </ul>
+        </ul>
+      </aside>
+
+      <div id="match" class="match">
+        <div class="control">
+          <label for="search-cities" class="default-state">search</label>
+          <input id="search-cities" type="text" required maxlength="15" />
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="js/app.data.js"></script>
+  <script src="js/index.js"></script>
+</html>

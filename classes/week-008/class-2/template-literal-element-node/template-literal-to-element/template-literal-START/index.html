@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="css/reboot.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+     
+    <nav class="site-nav">
+      <ul class="menu-options">
+        <li class="option">
+          <img class="icon" src="img/icons/crack-code.svg" alt="crack code" />
+        </li>
+        <li class="option"><h1>To Do</h1></li>
+        <li class="option">
+          <img class="icon" src="img/icons/user.svg" alt="user proifle" />
+        </li>
+      </ul>
+    </nav>
+    <main>
+
+   
+<aside class="todo" >
+       <!-- <header>  <h2>To Do List</h2></header> -->
+       <div id="to-do-component" class="todo-input">
+         <div class="control">
+           <label for="to-do-text" class="default-state">Add To Do Item</label>
+           <input id="to-do-text" type="text"  required maxlength="42">
+               <button id="add-to-do-button">
+                 <img class="add-icon" src="img/icons/add.svg" alt="add to do button">
+               </button>
+         </div>
+       </div>
+ 
+       <div class="todo-display">
+              <ul class="to-do-container">
+                 <!--  YOUR TO DO ITEMS WILL DISPLAY HERE  -->
+ 
+              </ul>
+       </div>
+
+  
+     
+ 
+      
+</aside>
+</main>
+  </body>
+  <script src="js/app.data.js"></script>
+  <script src="js/index.js"></script>
+</html>

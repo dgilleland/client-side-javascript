@@ -51,7 +51,6 @@ window.addEventListener('load', function(e){
         toDoLabel.textContent =' Add To Do Item'
         toDoLabel.classList.add('input-state') 
         e.currentTarget.removeEventListener('click', onAnimateLabel)
-    
     }
 
 /* 
@@ -71,12 +70,26 @@ window.addEventListener('load', function(e){
               document.createRange().createTe
 */
     function addNewToDo(newItem){
+        console.log(newItem)
         toDoArray.push(newItem)
         const category = getCategory();
-        const markup = ` <li  class="item" data-index="${toDoArray.lenght-1}" data-category="${category}">
+        const markup = ` <li  class="item" data-index="${toDoArray.length-1}" data-category="${category}">
         <p> <span>${newItem}</span><span class="category">${category}</span></p>
          <img class="trash-icon" src="img/icons/trash.svg" alt="move to do to the trash can"></li>`
-        toDoContainer.insertAdjacentHTML('afterbegin',markup)
+     
+         let documentFragment = document.createRange().createContextualFragment(markup)
+     
+        let todo = documentFragment.querySelector('li')
+        let iconButton = todo.querySelector('img')
+          iconButton.addEventListener('click', onRemoveToDo)
+           toDoContainer.appendChild(todo)
+      
+        
+    }
+
+    function onRemoveToDo(e){
+      toDoContainer.removeChild(e.currentTarget.parentNode)
+    
     }
  
 })
