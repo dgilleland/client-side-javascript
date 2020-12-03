@@ -6,7 +6,7 @@ window.addEventListener('load', function(e){
   const imageUpload = document.querySelector('#select-image')
   const reader = new FileReader();
   imageUpload.addEventListener('change', onDisplayImage)
-  
+ 
   function onDisplayImage(e){
       console.log(e.currentTarget.value.replace(`C:\\fakepath\\`,""))
     const preview = document.querySelector('.image-preview');
