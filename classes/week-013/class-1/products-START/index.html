@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>print square</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reboot.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <nav class="control-strip">
+      <ul class="icon-view">
+        <li>
+          <img class="icon" src="img/icons/logo.svg" alt="company logo" />
+        </li>
+        <li><h2>print square</h2></li>
+        <li>
+          <figure class="cart-items">
+            <img
+              class="icon"
+              src="img/icons/cart-items.svg"
+              alt="shopping cart with item count"
+            />
+            <figcaption class="cart-count">0</figcaption>
+          </figure>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <section class="products">
+        <header>
+          <h2 class="products-header">Prints In Stock</h2>
+        </header>
+         <!-- ADD YOUR EACH PRODUCT AS A CHILD OF THE DIV ELEMENT CLASS EQUALS PRINTS -->
+        <div class="prints">
+          <!-- PRODUCT TEMPLATE MARKUP -->
+          <!-- YOU DO NOT REQUIRE THE TEMPLATE ELEMENT ITS INCLUDED IF YOU WISH TO CREATE DOM CONTENT USING A DOCUMENT FRAGMENT -->
+          <template>
+            <aside class="print">
+              <header class="print-header">
+                <h3 class="print-title"></h3>
+              </header>
+              <img class="print-image" src="" alt="" />
+              <p class="print-details"></p>
+              <footer class="print-footer">
+                <p class="print-price"></p>
+                <button class="add-to-cart"></button>
+              </footer>
+            </aside>
+          </template>
+        </div>
+      </section>
+
+      <div class="modal hidden">
+        <div class="modal-display">display cart items here</div>
+      </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/uuid@latest/dist/umd/uuidv4.min.js"></script>
+    <script src="js/templates.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,90 @@
+[
+  {
+      "id": "058a4c8f",
+      "url": "product-1.jpg",
+      "title": "Waterford Memories",
+      "description": "Ullamco excepteur Lorem culpa  er olored repr nderit et ipsum amet elit ut aute ex magna.",
+      "price": 120,
+      "stock": 0
+  },
+{
+      "id": "db04fcf2",
+      "url": "product-2.jpg",
+      "title": "Lemmony",
+      "description": "Sit elit ad irure consectetur aute consequat voluptate.",
+      "price": 180,
+      "stock": 0
+  },
+ {
+      "id": "1a70649d",
+      "url": "product-3.jpg",
+      "title": "Star Gaze",
+      "description": "Lorem commodo id cupidatat laborum ex consectetur dolor culpa laboris fugiat aute.",
+      "price": 275,
+      "stock": 0
+  },
+  {
+      "id": "a39ae2e5",
+      "url": "product-4.jpg",
+      "title": "OG What Next",
+      "description": "Magna laborum pariatur dolor Lorem irure dolor pa laboris fugiat aute.",
+      "price": 200,
+      "stock": 8
+  },
+{
+      "id": "95a366a5",
+      "url": "product-5.jpg",
+      "title": "Purple Dreams",
+      "description": "Magna laborum pariatur dolor Lorem irure dolor pa laboris fugiat aute.",
+      "price": 106,
+      "stock": 6
+  },
+ {
+      "id": "7d5735f6",
+      "url": "product-6.jpg",
+      "title": "Medow Lark",
+      "description": "Magna laborum pariatur dolor Lorem irure dolor pa laboris fugiat aute.",
+      "price": 177,
+      "stock": 9
+  },
+  {
+      "id": "63a18f0e",
+      "url": "product-7.jpg",
+      "title": "Morning Glory",
+      "description": "Magna laborum pariatur dolor Lorem irure dolor pa laboris fugiat aute.",
+      "price": 80,
+      "stock": 0
+  },
+ {
+      "id": "8abccce9",
+      "url": "product-8.jpg",
+      "title": "Van Diesle",
+      "description": "Magna laborum pariatur dolor Lorem irure dolor pa laboris fugiat aute.",
+      "price": 239,
+      "stock": 2
+  },
+{
+      "id": "221f5b90",
+      "url": "product-9.jpg",
+      "title": "Northern Lights",
+      "description": "Magna laborum pariatur dolor Lorem irure dolor pa laboris fugiat aute.",
+      "price": 128,
+      "stock": 8
+  },
+ {
+      "id": "5b12f951",
+      "url": "product-10.jpg",
+      "title": "Northern Lights",
+      "description": "Magna laborum pariatur dolor Lorem irure dolor pa laboris fugiat aute.",
+      "price": 199,
+      "stock": 5
+  },
+ {
+      "id": "dec5d86f",
+      "url": "product-11.jpg",
+      "title": "Northern Lights",
+      "description": "Magna laborum pariatur dolor Lorem irure dolor pa laboris fugiat aute.",
+      "price": 233,
+      "stock": 0
+  }
+]

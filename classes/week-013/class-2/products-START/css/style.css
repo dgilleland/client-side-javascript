@@ -1,0 +1,193 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 100%;
+ 
+}
+ /*  Mobile Menu   */
+ .control-strip{
+   padding: 0.5rem 1rem;
+   box-shadow: 0 0 5px 0 rgb(196, 196, 196);
+ }
+ .icon-view{
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ .icon{
+   height:  2rem;
+ }
+ 
+ main{
+   max-width: 1200px;
+   margin: 0 auto;
+ }
+ /*  CONTAINER ELEMENT FOR PRINTS */
+.products  {
+  color: rgb(164, 164, 164);
+  margin: 1rem;
+}
+.products-header{
+   font-size: 2rem;
+   text-align: center;
+   margin-bottom: 2rem;
+}
+
+/* SINGLE PRINT */
+.print {
+  position:relative;
+  margin: 0.55rem auto 3rem;
+  max-width: 520px;
+  width: 100%;
+  padding-bottom: 1rem;
+  border-top: 5px solid teal;
+  box-shadow: 2px 2px 8px 1px rgb(216, 215, 218);
+  padding: 1rem;
+  color: rgb(39, 37, 43);
+}
+
+/* PRINT HEADER */
+.print-header {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  color:rgb(95, 91, 100);
+}
+ .print-title{
+   margin-left: 0.4rem;
+
+ }
+
+ .print-price{
+   color:rgb(61, 56, 68);
+   display: inline;
+  padding: 0.25rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: tom;
+  border-radius:4px;
+  font-style: italic;
+}
+.currency{
+  font-size: 12px;
+}
+/* PRINT THUMBNAIT AND DETAILS */
+.print-image {
+  border: 1px solid rgb(199, 199, 199);
+  padding: 1px;
+}
+.print-details{
+  margin:  1rem 0;
+  font-size: 14px;
+}
+/* PRINT FOOTER ITEMS */
+.print-footer{
+  display:flex;
+  justify-content: center;
+}
+
+.add-to-cart{
+  border:none;
+  background:transparent;
+  border-radius: 4px;
+  box-shadow: 0 0 2px 0 rgb(10, 92, 92);
+  padding: 0.25rem 1rem;
+  font-size: 14px;
+  color: rgb(10, 92, 92);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+ 
+
+ 
+
+/* Cart Items */
+.cart-items{
+  position: relative;
+}
+.cart-items figcaption{
+  position:absolute;
+  top: -0.25rem;
+  right: -0.5rem;
+  width: 1.5rem;
+  height:1.5rem;
+  border-radius: 50%;
+  background:teal;
+  color:white;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  font-size: 10px;
+  border: 2px solid white;
+  padding: 0.5rem;
+
+}
+/* 
+ Media Queries
+*/
+
+@media(min-width: 820px){
+  .prints{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  .print{
+  margin: 0;
+  max-width: calc(50% - 2rem);
+  }
+}
+
+@media(min-width: 1440px){
+ /* body{
+  overflow-y:hidden;
+ } */
+  .print{
+  margin: 0;
+    max-width: calc(33% - 1.5rem);
+  }
+}
+
+
+
+
+
+
+/* 
+  Utility Classes
+*/
+
+.modal{
+  position:fixed;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  background: rgba(23, 21, 21, 0.9);
+ display:flex;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.modal-display{
+  width: 100%;
+  height: 35vmax;
+  background:white;
+  margin: 2rem;
+  text-align:center;
+  line-height: 35vmax;
+}
+
+.hidden{
+  display:none;
+}
+
+
+
