@@ -1,0 +1,8 @@
+{
+    "title": "JSON DATA",
+    "templates": {
+        "default": {
+            "outputSourceFiles": false
+        }
+    }
+}
