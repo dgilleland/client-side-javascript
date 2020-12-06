@@ -1,0 +1,83 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 100%;
+}
+ /*  Mobile Menu   */
+ .control-strip{
+   padding:  1rem;
+   box-shadow: 0 0 5px 0 rgb(196, 196, 196);
+   color:grey;
+ }
+ .icon-view{
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ .login{
+   border:none;
+   background-color: transparent;
+   border-radius: 4px;
+   padding: 0.25rem 1.5rem;
+   box-shadow: 0 0 3px 0 grey;
+   color:grey;
+ }
+ .icon{
+   height:  1.5rem;
+ }
+ 
+ main{
+   margin: 0 auto;
+   padding: 2rem 1rem;
+   
+  }
+  .posts{
+   max-width: 720px;
+    margin: 2rem auto;
+  }
+ .post{
+   margin-bottom: 4rem;
+ }
+ .post header{
+   margin-bottom: 1rem;
+ }
+ .title{
+   font-size:3.8rem;
+   letter-spacing: -2px;
+   line-height: 3.8rem;
+   margin-bottom: 0.5rem;
+ }
+ 
+ .date, .author{
+   font-size: 11px;
+   font-weight: bold;
+   margin-left:0.5rem;
+ }
+ .copy{
+ 
+   font-size: 14px;
+
+ }
+
+ @media(min-width:820px){
+  
+
+   .post{
+     width: 810px;
+   }
+   .title{
+    font-size: calc(2rem + 3vmax);
+    line-height: calc(3.2rem + 2vmax)
+  }
+   .copy{
+     font-size: calc(16px + 0.3vw)
+   }
+   .author, .date{
+     font-size: calc(16px+ 0.125vw)
+   }
+ }
+
+  
