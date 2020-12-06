@@ -3,7 +3,7 @@ This repo contains the exercise files for learning how to write effective JavaSc
  
 ```bash
 ./
-├── challanges
+├── projects
 ├── classes
 ├── crackcode
 └── resources
@@ -12,7 +12,7 @@ This repo contains the exercise files for learning how to write effective JavaSc
 <br/>
 <br/>  
 
-__challanges__  
+__projects__  
 Folder contains additional exercises and challanges to help you perfect your UI development skills. 
 <br/>
 <br/>  
