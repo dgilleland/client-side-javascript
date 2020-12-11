@@ -1,0 +1,129 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 100%;
+  background:#f4f5f7;
+}
+ /*  Mobile Menu   */
+ .control-strip{
+  background-color: #1f2938;
+   box-shadow: 0 0 3px 0 #2d394e;
+   color:#ffffff;
+   padding:  1rem;
+   display:flex;
+   justify-content: space-between;
+  align-items: center;
+ }
+ 
+
+ .login{
+   border:none;
+   border-radius: 4px;
+   padding: 0.25rem 1.5rem;
+ 
+   color:#2d394e;
+ }
+ 
+ 
+ main{
+   width: 98%;
+   margin: 0 auto;
+   padding: 2rem 1rem;
+
+  }  
+  /* 
+  
+  */
+  .lesson {
+    background:white;
+    padding:  1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 2px 0 #9c9c9c;
+    margin-bottom: 2rem; 
+  }
+  .ad{
+    border-radius: 8px;
+     height: 260px;
+    object-fit: cover;
+    object-position: 50% 80%;
+  }
+  
+  
+  header{
+    margin-bottom:0.56rem;
+  }
+  h2{
+    font-size: 1.75rem;
+  }
+  p{
+    color:#0e1114;
+    font-size: 14px;
+ 
+  }
+  p>span{
+   color:#071538;;
+   font-weight: 600;
+   font-size: 14px;
+  
+  }
+  .rating{
+    margin-top: 0.8rem;
+    text-align: right;
+    color: teal;
+    font-size: 13px;
+  }
+
+  @media(min-width:520px){
+    main{
+      display:grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap:1rem;
+    }
+    .ad{
+      max-height: 450px;
+    }
+    h2{
+      font-size: 14px;
+    }
+    p{
+      font-size: 10px;
+    }
+    p>span{
+      color:#071538;;
+      font-weight: 600;
+      font-size: 13px;
+     
+     }
+     .copy{
+       display:none;
+     }
+  }
+  @media(min-width:920px){
+       main{
+         grid-template-columns: repeat(3, 1fr);
+       }
+       .ad{
+        max-height: 350px;
+      }
+  
+  }
+
+  @media(min-width:1200px){
+    main{
+      max-width: 1400px;
+      margin: 0 auto;
+      grid-template-columns: repeat(4, 1fr);
+    }
+    .ad{
+     max-height: 350px;
+   }
+   .copy{
+     display:block;
+   }
+}
+ 
+   
+ 

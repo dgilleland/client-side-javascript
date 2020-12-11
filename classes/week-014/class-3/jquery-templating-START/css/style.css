@@ -1,0 +1,127 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 100%;
+  background:#f4f5f7;
+ 
+}
+ /*  Mobile Menu   */
+ .control-strip{
+  background-color: #1f2938;
+   box-shadow: 0 0 3px 0 #2d394e;
+   color:#ffffff;
+   padding:  1rem;
+   display:flex;
+   justify-content: space-between;
+  align-items: center;
+ }
+ 
+
+ .login{
+   border:none;
+   border-radius: 4px;
+   padding: 0.25rem 1.5rem;
+ 
+   color:#2d394e;
+ }
+ 
+ 
+ main{
+   width: 70%;
+   margin: 0 auto;
+   padding: 2rem 1rem;
+   display:grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-template-rows: 1fr;
+   gap: 2rem;
+  }  
+  /* 
+  
+  */
+  .form{
+
+  }
+  .container{
+    grid-row: 2;
+  }
+  .display{
+    grid-column: 2;
+    grid-row:1/3;
+  }
+  aside{
+    background:white;
+    padding: 2rem 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 2px 0 #9c9c9c;
+    margin-bottom: 2rem; 
+  }
+  header{
+    margin-bottom:1.8rem;
+  }
+  h2{
+    font-size: calc(20px + 2vw)
+  }
+  p{
+    color:#646870;
+    font-size: calc(10px + 0.5vw);
+    line-height: calc(10px + 0.75vw);
+  }
+
+  input, label{
+    display:block;
+  }
+  label{
+    padding-left: 0.5rem;
+    padding-bottom: 0.125rem;
+    font-size: 14px;
+  }
+  input[type=text], input[type=submit]{
+    width: 100%;
+    border:none;
+    box-shadow:0 0 2px 0 rgb(164, 164, 164);
+    margin-bottom: 1rem;
+    border-radius: 12px;
+    font-size: 1.128rem;
+    padding: 0.25rem 1rem;
+    outline:none;
+  }
+  input[type=submit]{
+    box-shadow: none;
+     border:none;
+     background-color: #1f2938;
+     color:#efefef;
+     font-size:1.25rem;
+  }
+
+  .btn{
+    border:none;
+    background:#1f2938;
+    color:#ffffff;
+    border-radius: 5px;
+    padding: 0.25rem 1rem;
+    margin-bottom: 1rem;
+  }
+ul, li{
+  list-style-type: none;
+}
+ 
+  .test{
+    background-color: teal;
+  }
+
+  .active{
+    background-color: rgb(229, 246, 204);
+  }
+
+  .warn{
+    background-color: rgba(244, 94, 94, 0.587);
+  }
+
+  .post{
+    margin-bottom: 3rem;;
+  }
+
+ 
