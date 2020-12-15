@@ -1,0 +1,52 @@
+[
+    {
+        "id": "4c23A4k8",
+        "title": "complete assignment 4",
+        "type":"school",
+        "dataAdded": "02/12/2020",
+        "active": false
+    },
+    {
+        "id": "77g52D29",
+        "title": "work on the ending",
+        "type":"school",
+        "dataAdded": "02/12/2020",
+        "active": false
+    },
+    {
+        "id": "122w55sW",
+        "title": "read chapters 9 and 10",
+        "type":"home",
+        "dataAdded": "22/11/2020",
+        "active": true
+    },
+    {
+        "id": "g5S3eD29",
+        "title": "register for google seminar",
+        "type":"banking",
+        "dataAdded": "06/01/2021",
+        "active": true
+    },
+    {
+        "id": "S25sS8s8",
+        "title": "sign up for firebase",
+        "type":"school",
+        "dataAdded": "20/12/2020",
+        "active": true
+    },
+    {
+        "id": "6589452d",
+        "title": "signup for google cloud services",
+        "type":"school",
+        "dataAdded": "20/12/2020",
+        "active": true
+    },
+    {
+        "id": "93e2d2f7",
+        "title": "work on the ending",
+        "type":"home",
+        "dataAdded": "02/12/2020",
+        "active": false
+    }
+ 
+]
