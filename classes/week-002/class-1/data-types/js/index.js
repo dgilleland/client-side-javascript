@@ -1,0 +1,14 @@
+/* 
+JavaScript Data Types
+String
+Number
+Boolean
+BigInt
+Symbol
+undefined
+
+Object
+Function
+
+null
+*/
