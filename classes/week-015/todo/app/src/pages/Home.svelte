@@ -5,7 +5,7 @@
    <p>Increase your productivity, manage your workload achieve your goals and get on top and dominait</p>
  
  
-   <a class="free-trial" href="/todos">Get Started</a>
+   <a class="free-trial" href="/todos">Get Started Today</a>
 </header>
  
 </main>

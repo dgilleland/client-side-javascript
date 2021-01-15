@@ -22,6 +22,25 @@
 	page("*", () => (current = NotFound));
 	// activate router
 	page.start();
+var myHeaders = new Headers();
+myHeaders.append("Content-Type", "application/json");
+
+var raw = JSON.stringify({"name":"james foley","from":"svelte"});
+
+var requestOptions = {
+  method: 'POST',
+  headers: myHeaders,
+  body: raw,
+  redirect: 'follow'
+};
+
+fetch("http://localhost:4000/api/todos", requestOptions)
+  .then(response => response.json())
+  .then(result => console.log(result))
+  .catch(error => console.log('error', error));
+ 
+
+ 
 </script>
 
 <style>
