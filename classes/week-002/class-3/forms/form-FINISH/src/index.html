@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment</title>
+    <link rel="stylesheet" href="css/styles.css">
+    
+  </head>
+  <body>
+    <nav class="site-nav">
+      <ul class="items">
+          <li class="item">brand</li>
+          <li class="item"><button>login</button></li>
+      </ul>
+  </nav>
+  <main>
+    
+    <form id="payment" class="payment" action="#">
+
+      <div class="frm-control name-on-card">
+        <label for="frmNameCC">Name on Card</label>
+        <input class="ui-base"
+          name="ccname"
+          id="frmNameCC"
+          required
+          placeholder="Full Name"
+          autocomplete="cc-name"
+        />
+      </div>
+  
+  
+   
+        <div class="frm-control card-number ">
+          <label for="frmCCNum">Card Number</label>
+          <div class="card ui-base">
+            <input  
+              name="cardnumber"
+              id="frmCCNum"
+              required
+              autocomplete="cc-number"
+              placeholder="4530 91XX XXXX XXXX"
+             
+            />
+            <img class="form-icon" src="assets/icons/credit-card-icon.svg" alt="credit card">
+          </div>
+        </div>
+        <div class="frm-control expiry">
+          <label for="frmCCExp">Expiry</label>
+          <input
+            class="ui-base"
+            name="cc-exp"
+            id="frmCCExp"
+            required
+            placeholder="MM/YYYY"
+            autocomplete="cc-exp"
+             
+          />
+        </div>
+
+        <div class="frm-control card-code">
+          <label for="frmCCCVC">CVC</label>
+          <input class="ui-base" name="cvc" id="frmCCCVC" required autocomplete="cc-csc"  placeholder="123"/>
+        </div>
+    
+  
+  
+        <div class="frm-control submit">
+          <button class="ui-base" type=submit>Submit Payment</button>
+        </div>
+  
+  
+    </form>
+  </main>
+
+   
+
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
