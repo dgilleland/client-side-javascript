@@ -1,4 +1,5 @@
 # Client Side Javascript  
+
 This repo contains the exercise files for learning how to write effective JavaScript solutions for web applications. The focus of the course is on developing front end user interface components using HTML CSS and JavaScript.
  
 ```bash

@@ -16,7 +16,7 @@ __JavaScript Topics__
 __Student To Do__
 - Set up a github account.
 - Register for Netlify. netlify.com
-- Take the time to lean Markdown
+- Take the time to learn Markdown
 
 
 __Sources For Help__ 
